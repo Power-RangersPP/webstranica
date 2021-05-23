@@ -1,25 +1,31 @@
 import styled from "styled-components";
 
-export const StyledDiv = styled.div`
+export const StyledIvan = styled.div`
   background-color: blue;
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
 `;
 
-export const StyledDiv2 = styled.div`
+export const StyledKarlo = styled.div`
   background-color: red;
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
 `;
 
-export const StyledDiv3 = styled.div`
+export const StyledAnja = styled.div`
   background-color: green;
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
 `;
 
-export const StyledDiv4 = styled.div`
+export const StyledLea = styled.div`
   background-color: yellow;
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
+`;
+
+export const StyledMatija = styled.div`
+  background-color: purple;
+  width: 100%;
+  height: 100%;
 `;
