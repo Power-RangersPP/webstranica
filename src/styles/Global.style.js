@@ -12,13 +12,18 @@ export const ImageWrapper = styled.div`
 `;
 
 export const StyledBox = styled.div`
-  background-color: white;
+  background-color: #f0f0f0;
   width: 70%;
   margin: 0 auto;
-  height: 800px;
-  border: 1px solid white;
+  height: 900px;
   margin-top: 30px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
+  padding: 50px;
+  padding-bottom: 130px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 `;
