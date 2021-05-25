@@ -6,6 +6,7 @@ import {
   LeaArticleText,
   LeaArticleWrap,
   LeaImage,
+  StyledHeaderLea,
   LeaImageTwo,
   OuterWrapper,
   KontaktWrapper,
@@ -18,7 +19,7 @@ export const Lea = ({}) => {
         <img src={blackPowerRanger} alt="black" height="380px" />
       </ImageWrapper>
 
-      <StyledHeader>Lea Novak</StyledHeader>
+      <StyledHeaderLea>Lea Novak</StyledHeaderLea>
 
       <StyledBox>
         <OuterWrapper>
