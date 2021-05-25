@@ -4,8 +4,7 @@ import karloImg2 from "../images/backgrounds/karloslika2.jpg";
 
 export const StyledHeader = styled.h1`
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  color: white;
+  font-family: 'Montserrat', sans-serif;
 `;
 
 export const ImageWrapper = styled.div`
@@ -28,15 +27,14 @@ export const KarloArticleWrap = styled.div`
 export const KarloArticleHeader = styled.h1`
   text-align: center;
   margin: 0 auto;
-  color: white;
+  font-family: 'Montserrat', sans-serif;
   margin-top: 15px;
 `;
 
 export const KarloArticleText = styled.h1`
   font-size: 15px;
   padding: 10px;
-  color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 `;
 
 export const KarloImage = styled.div`
@@ -76,5 +74,5 @@ export const KontaktWrapper = styled.div`
   text-align: center;
   width: 600px;
   margin: 0 auto;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 `;

@@ -19,7 +19,7 @@ export const IvanArticleWrap = styled.div`
   border-radius: 15px;
   margin-bottom: 50px;
   flex-direction: column;
-  background-color: #6e9efe;
+  background-color: #99BFF9;
   box-shadow: 3px 3px 5px 6px #ccc;
   overflow: auto;
 `;
