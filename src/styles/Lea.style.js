@@ -35,7 +35,7 @@ export const LeaArticleHeader = styled.h1`
 export const StyledHeaderLea = styled.h1`
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  color: yellow;
+  color: white;
 `;
 
 export const LeaArticleText = styled.h1`
