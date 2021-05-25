@@ -4,8 +4,7 @@ import matijaImg2 from "../images/backgrounds/matijaslika2.jpg";
 
 export const StyledHeader = styled.h1`
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  color: black;
+  font-family: 'Montserrat', sans-serif;
 `;
 
 export const ImageWrapper = styled.div`
@@ -28,15 +27,14 @@ export const MatijaArticleWrap = styled.div`
 export const MatijaArticleHeader = styled.h1`
   text-align: center;
   margin: 0 auto;
-  color: black;
+  font-family: 'Montserrat', sans-serif;
   margin-top: 15px;
 `;
 
 export const MatijaArticleText = styled.h1`
   font-size: 15px;
   padding: 10px;
-  color: black;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 `;
 
 export const MatijaImage = styled.div`
@@ -76,5 +74,5 @@ export const KontaktWrapper = styled.div`
   text-align: center;
   width: 600px;
   margin: 0 auto;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 `;

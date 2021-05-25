@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const StyledHeader = styled.h1`
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  color: white;
+  font-family: 'Montserrat', sans-serif;
 `;
 
 export const ImageWrapper = styled.div`
