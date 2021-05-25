@@ -1,11 +1,20 @@
 import React from "react";
-import { StyledBox } from "../styles/Karlo.style";
+import { StyledHeader, ImageWrapper, StyledBox } from "../styles/Global.style";
+import blackPowerRanger from "../images/black.jpg";
 
 export const Lea = ({}) => {
   return (
     <div>
-      <h1>Lea Novak</h1>
-      <StyledBox>yo</StyledBox>
+      <ImageWrapper>
+        <img src={blackPowerRanger} alt="black" height="380px" />
+      </ImageWrapper>
+
+      <StyledHeader>Lea Novak</StyledHeader>
+
+      <StyledBox>
+        <div>hello</div>
+        <div>world</div>
+      </StyledBox>
     </div>
   );
 };

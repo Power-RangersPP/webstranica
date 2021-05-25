@@ -1,12 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Header from "./components/Header";
+import Slider from "./components/Slider";
 import Navbar from "./components/Navbar";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar />
-    <Header />
+    <Slider />
   </React.StrictMode>,
   document.getElementById("root")
 );

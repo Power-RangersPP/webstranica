@@ -1,11 +1,20 @@
 import React from "react";
-import { StyledBox } from "../styles/Karlo.style";
+import { StyledHeader, ImageWrapper, StyledBox } from "../styles/Global.style";
+import pinkPowerRanger from "../images/pink.jpg";
 
 export const Anja = ({}) => {
   return (
     <div>
-      <h1>Anja Penić</h1>
-      <StyledBox>yo</StyledBox>
+      <ImageWrapper>
+        <img src={pinkPowerRanger} alt="pink" height="380px" />
+      </ImageWrapper>
+
+      <StyledHeader>Anja Penić</StyledHeader>
+
+      <StyledBox>
+        <div>hello</div>
+        <div>world</div>
+      </StyledBox>
     </div>
   );
 };
