@@ -32,6 +32,12 @@ export const LeaArticleHeader = styled.h1`
   margin-top: 15px;
 `;
 
+export const StyledHeaderLea = styled.h1`
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: yellow;
+`;
+
 export const LeaArticleText = styled.h1`
   font-size: 15px;
   padding: 10px;
