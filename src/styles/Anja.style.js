@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import bardicImg from "../images/backgrounds/mansleeping.jpg";
-import bardicImg2 from "../images/backgrounds/manvaping.jpg";
+import anjaImg from "../images/backgrounds/anjaslika1.jpg";
+import anjaImg2 from "../images/backgrounds/anjaslika2.jpg";
 
 export const StyledHeader = styled.h1`
   text-align: center;
@@ -13,33 +13,33 @@ export const ImageWrapper = styled.div`
   text-align: center;
 `;
 
-export const IvanArticleWrap = styled.div`
+export const AnjaArticleWrap = styled.div`
   display: flex;
   height: 400px;
   width: 600px;
   border-radius: 15px;
   margin-bottom: 50px;
   flex-direction: column;
-  background-color: #6e9efe;
+  background-color: #f2aec1;
   box-shadow: 3px 3px 5px 6px #ccc;
   overflow: auto;
 `;
 
-export const IvanArticleHeader = styled.h1`
+export const AnjaArticleHeader = styled.h1`
   text-align: center;
   margin: 0 auto;
   color: white;
   margin-top: 15px;
 `;
 
-export const IvanArticleText = styled.h1`
+export const AnjaArticleText = styled.h1`
   font-size: 15px;
   padding: 10px;
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 `;
 
-export const IvanImage = styled.div`
+export const AnjaImage = styled.div`
   display: flex;
   height: 400px;
   width: 500px;
@@ -47,12 +47,12 @@ export const IvanImage = styled.div`
   margin-left: 50px;
   justify-content: space-evenly;
   margin-bottom: 10px;
-  background-image: url(${bardicImg});
+  background-image: url(${anjaImg});
   background-size: cover;
   box-shadow: 3px 3px 5px 6px #ccc;
 `;
 
-export const IvanImageTwo = styled.div`
+export const AnjaImageTwo = styled.div`
   display: flex;
   height: 400px;
   width: 500px;
@@ -60,7 +60,7 @@ export const IvanImageTwo = styled.div`
   justify-content: space-evenly;
   margin-bottom: 10px;
   margin-right: 50px;
-  background-image: url(${bardicImg2});
+  background-image: url(${anjaImg2});
   background-size: cover;
   box-shadow: 3px 3px 5px 6px #ccc;
 `;

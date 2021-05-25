@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import karloImg from "../images/backgrounds/karloslika4.jpeg";
+import karloImg from "../images/backgrounds/karloslika1.jpg";
 import karloImg2 from "../images/backgrounds/karloslika2.jpg";
 
 export const StyledHeader = styled.h1`
@@ -16,9 +16,9 @@ export const ImageWrapper = styled.div`
 export const KarloArticleWrap = styled.div`
   display: flex;
   height: 400px;
-  width: 500px;
+  width: 600px;
   border-radius: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   flex-direction: column;
   background-color: #fd5657;
   box-shadow: 3px 3px 5px 6px #ccc;
