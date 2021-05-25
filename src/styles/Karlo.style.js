@@ -19,7 +19,7 @@ export const KarloArticleWrap = styled.div`
   border-radius: 15px;
   margin-bottom: 50px;
   flex-direction: column;
-  background-color: #fd5657;
+  background-color: #E05F49;
   box-shadow: 3px 3px 5px 6px #ccc;
   overflow: auto;
 `;
