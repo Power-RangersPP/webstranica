@@ -14,7 +14,7 @@ export const StyledBox = styled.div`
   background-color: #f0f0f0;
   width: 80%;
   margin: 0 auto;
-  height: 900px;
+  height: 1000px;
   margin-top: 30px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import bardicImg from "../images/backgrounds/mansleeping.jpg";
-import bardicImg2 from "../images/backgrounds/manvaping.jpg";
+import ivanImg from "../images/backgrounds/mansleeping.jpg";
+import ivanImg2 from "../images/backgrounds/ivanslika1.jpg";
 
 export const StyledHeader = styled.h1`
   text-align: center;
@@ -54,7 +54,7 @@ export const IvanImage = styled.div`
   margin-left: 50px;
   justify-content: space-evenly;
   margin-bottom: 10px;
-  background-image: url(${bardicImg});
+  background-image: url(${ivanImg});
   background-size: cover;
   box-shadow: 3px 3px 5px 6px #ccc;
 
@@ -76,7 +76,7 @@ export const IvanImageTwo = styled.div`
   justify-content: space-evenly;
   margin-bottom: 10px;
   margin-right: 50px;
-  background-image: url(${bardicImg2});
+  background-image: url(${ivanImg2});
   background-size: cover;
   box-shadow: 3px 3px 5px 6px #ccc;
   @media (max-width: 1450px) {
