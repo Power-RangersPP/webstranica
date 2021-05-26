@@ -131,7 +131,7 @@ class Slider extends React.Component {
               </Nav>
             </Wrap>
             <Switch>
-              <Route path="/kontakt" component={Kontakt}></Route>
+              <Route path="/kontakt" exact component={Kontakt}></Route>
             </Switch>
           </Router>
         </div>

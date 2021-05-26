@@ -1,70 +1,51 @@
 import styled from "styled-components";
 
-export const KontaktWrapper = styled.div`
+export const StyledForm = styled.form`
   margin: 0 auto;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-family: "Montserrat", sans-serif;
-  border: 1px solid black;
+  width: 450px;
+`;
+
+export const StyledCheckboxWrapper = styled.form`
+  height: 100px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
   flex-wrap: wrap;
-`;
-
-export const Form = styled.form`
-  width: 300px;
-  display: flex;
-  flex-direction: column;
   align-items: center;
+  text-align: center;
 `;
 
-export const Input = styled.input`
-  width: 300px;
-  height: 35px;
-  border: 1px solid #ccc;
-  background-color: #fff;
+export const StyledLabel = styled.form`
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  align-self: center;
 `;
 
-export const InputWrapper = styled.div`
-  border: 1px solid red;
-`;
-
-export const Button = styled.button`
-  width: 300px;
-  height: 35px;
-  background-color: #5995ef;
-  color: #fff;
+export const StyledInput = styled.input`
+  width: 200px;
+  height: 30px;
   border-radius: 3px;
+  margin-top: 10px;
+  align-self: center;
 `;
 
-export const Title = styled.h1`
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  color: #4d4d4d;
-  font-size: 2.2em;
+export const StyledInputCheck = styled.input`
+  height: 30px;
+  border-radius: 3px;
+  margin-top: 10px;
+  align-self: center;
 `;
 
-export const Title2 = styled.h2`
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
-  color: #4d4d4d;
-  font-size: 1.8em;
-`;
-
-export const Text = styled.p`
-  font-family: "Raleway", sans-serif;
-  color: ${(props) => props.color || "#4d4d4d"};
-`;
-
-export const Label = styled.label`
+export const StyledInputWrapper = styled.div`
   display: flex;
+  align-content: center;
+  padding: 5px;
   flex-direction: column;
-  color: #777;
-  font-family: "Raleway", sans-serif;
-  font-size: 0.8em;
-  margin: 0.5em 0;
-  position: relative;
+`;
+
+export const StyledButton = styled.button`
+  color: white;
+  background-color: #99bff9;
+  border: 1px solid white;
+  font-weight: 600px;
+  border-radius: 20px;
+  margin-top: 30px;
 `;
