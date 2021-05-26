@@ -4,7 +4,7 @@ import bardicImg2 from "../images/backgrounds/manvaping.jpg";
 
 export const StyledHeader = styled.h1`
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 `;
 
 export const ImageWrapper = styled.div`
@@ -19,22 +19,31 @@ export const IvanArticleWrap = styled.div`
   border-radius: 15px;
   margin-bottom: 50px;
   flex-direction: column;
-  background-color: #99BFF9;
+  background-color: #99bff9;
   box-shadow: 3px 3px 5px 6px #ccc;
   overflow: auto;
+  @media (max-width: 1450px) {
+    width: 100%;
+  }
+  @media (max-width: 1000px) {
+    width: 100%;
+    margin-right: 0px;
+    box-shadow: none;
+    height: 550px;
+  }
 `;
 
 export const IvanArticleHeader = styled.h1`
   text-align: center;
   margin: 0 auto;
   margin-top: 15px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 `;
 
 export const IvanArticleText = styled.h1`
   font-size: 15px;
   padding: 10px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 `;
 
 export const IvanImage = styled.div`
@@ -48,6 +57,15 @@ export const IvanImage = styled.div`
   background-image: url(${bardicImg});
   background-size: cover;
   box-shadow: 3px 3px 5px 6px #ccc;
+
+  @media (max-width: 1450px) {
+    width: 100%;
+    margin-left: 0px;
+  }
+  @media (max-width: 1000px) {
+    width: 100%;
+    margin-left: 0px;
+  }
 `;
 
 export const IvanImageTwo = styled.div`
@@ -61,6 +79,14 @@ export const IvanImageTwo = styled.div`
   background-image: url(${bardicImg2});
   background-size: cover;
   box-shadow: 3px 3px 5px 6px #ccc;
+  @media (max-width: 1450px) {
+    width: 100%;
+    margin-right: 0px;
+  }
+  @media (max-width: 1000px) {
+    width: 100%;
+    margin-right: 0px;
+  }
 `;
 
 export const OuterWrapper = styled.div`
@@ -74,5 +100,5 @@ export const KontaktWrapper = styled.div`
   text-align: center;
   width: 600px;
   margin: 0 auto;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 `;

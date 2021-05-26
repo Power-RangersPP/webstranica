@@ -24,6 +24,7 @@ export const NavLink = styled.a`
   @media (min-width: 768px) and (max-width: 1024px) {
     font-size: 20px;
     padding: 0 1rem;
+    width: 100%;
   }
 `;
 

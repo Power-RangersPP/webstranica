@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledHeader = styled.h1`
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 `;
 
 export const ImageWrapper = styled.div`
@@ -12,7 +12,7 @@ export const ImageWrapper = styled.div`
 
 export const StyledBox = styled.div`
   background-color: #f0f0f0;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   height: 900px;
   margin-top: 30px;
@@ -24,5 +24,13 @@ export const StyledBox = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+
+  @media (max-width: 1450px) {
+    height: 1800px;
+  }
+  @media (max-width: 1000px) {
+    width: 70%;
+    height: 2300px;
+  }
 `;

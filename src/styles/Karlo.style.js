@@ -4,7 +4,7 @@ import karloImg2 from "../images/backgrounds/karloslika2.jpg";
 
 export const StyledHeader = styled.h1`
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 `;
 
 export const ImageWrapper = styled.div`
@@ -19,22 +19,32 @@ export const KarloArticleWrap = styled.div`
   border-radius: 15px;
   margin-bottom: 50px;
   flex-direction: column;
-  background-color: #E05F49;
+  background-color: #e05f49;
   box-shadow: 3px 3px 5px 6px #ccc;
   overflow: auto;
+
+  @media (max-width: 1450px) {
+    width: 100%;
+  }
+  @media (max-width: 1000px) {
+    width: 100%;
+    margin-right: 0px;
+    box-shadow: none;
+    height: 550px;
+  }
 `;
 
 export const KarloArticleHeader = styled.h1`
   text-align: center;
   margin: 0 auto;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 15px;
 `;
 
 export const KarloArticleText = styled.h1`
   font-size: 15px;
   padding: 10px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 `;
 
 export const KarloImage = styled.div`
@@ -48,6 +58,14 @@ export const KarloImage = styled.div`
   background-image: url(${karloImg});
   background-size: cover;
   box-shadow: 3px 3px 5px 6px #ccc;
+  @media (max-width: 1450px) {
+    width: 100%;
+    margin-left: 0px;
+  }
+  @media (max-width: 1000px) {
+    width: 100%;
+    margin-left: 0px;
+  }
 `;
 
 export const KarloImageTwo = styled.div`
@@ -61,6 +79,14 @@ export const KarloImageTwo = styled.div`
   background-image: url(${karloImg2});
   background-size: cover;
   box-shadow: 3px 3px 5px 6px #ccc;
+  @media (max-width: 1450px) {
+    width: 100%;
+    margin-right: 0px;
+  }
+  @media (max-width: 1000px) {
+    width: 100%;
+    margin-right: 0px;
+  }
 `;
 
 export const OuterWrapper = styled.div`
@@ -74,5 +100,5 @@ export const KontaktWrapper = styled.div`
   text-align: center;
   width: 600px;
   margin: 0 auto;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 `;
