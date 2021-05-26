@@ -26,6 +26,8 @@ import {
   LeaWrap,
   MatijaWrap,
 } from "../styles/Navbar.style";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Kontakt from "./Kontakt";
 
 const responsive = {
   desktop: {
@@ -51,74 +53,89 @@ class Slider extends React.Component {
     return (
       <div>
         <div>
-          <Wrap>
-            <Nav>
-              <NavMenu>
-                <IvanWrap>
-                  <NavLink
-                    hoverStyle={{ "box-shadow": "inset 0 -5px 0 #C6C9D2" }}
-                    onClick={() => {
-                      this.Carousel.goToSlide(2);
-                      document.getElementById("kontakt").style.backgroundColor =
-                        "rgba(153, 191, 249, 1)";
-                      console.log(this.Carousel.state.currentSlide);
-                    }}
-                  >
-                    Ivan
-                  </NavLink>
-                </IvanWrap>
-                <KarloWrap>
-                  <NavLink
-                    onClick={() => {
-                      this.Carousel.goToSlide(3);
-                      document.getElementById("kontakt").style.backgroundColor =
-                        "rgba(255, 0, 0, 0.7)";
-                    }}
-                  >
-                    Karlo
-                  </NavLink>
-                </KarloWrap>
-                <AnjaWrap>
-                  <NavLink
-                    onClick={() => {
-                      this.Carousel.goToSlide(4);
-                      document.getElementById("kontakt").style.backgroundColor =
-                        "rgba(236, 91, 158, 0.6)";
-                    }}
-                  >
-                    Anja
-                  </NavLink>
-                </AnjaWrap>
-                <LeaWrap>
-                  <NavLink
-                    onClick={() => {
-                      this.Carousel.goToSlide(5);
-                      document.getElementById("kontakt").style.backgroundColor =
-                        "rgba(0, 0, 0, 0.7)";
-                      document.getElementById("kontakt").style.color = "white";
-                    }}
-                  >
-                    Lea
-                  </NavLink>
-                </LeaWrap>
-                <MatijaWrap>
-                  <NavLink
-                    onClick={() => {
-                      this.Carousel.goToSlide(6);
-                      document.getElementById("kontakt").style.backgroundColor =
-                        "rgba(255, 255, 0, 0.4)";
-                      document.getElementById("kontakt").style.color = "black";
-                    }}
-                  >
-                    Matija
-                  </NavLink>
-                </MatijaWrap>
-                <KontaktForma id="kontakt">Forma za kontakt</KontaktForma>
-              </NavMenu>
-              <Bars />
-            </Nav>
-          </Wrap>
+          <Router>
+            <Wrap>
+              <Nav>
+                <NavMenu>
+                  <IvanWrap>
+                    <NavLink
+                      hoverStyle={{ "box-shadow": "inset 0 -5px 0 #C6C9D2" }}
+                      onClick={() => {
+                        this.Carousel.goToSlide(2);
+                        document.getElementById(
+                          "kontakt"
+                        ).style.backgroundColor = "rgba(153, 191, 249, 1)";
+                        console.log(this.Carousel.state.currentSlide);
+                      }}
+                    >
+                      Ivan
+                    </NavLink>
+                  </IvanWrap>
+                  <KarloWrap>
+                    <NavLink
+                      onClick={() => {
+                        this.Carousel.goToSlide(3);
+                        document.getElementById(
+                          "kontakt"
+                        ).style.backgroundColor = "rgba(255, 0, 0, 0.7)";
+                      }}
+                    >
+                      Karlo
+                    </NavLink>
+                  </KarloWrap>
+                  <AnjaWrap>
+                    <NavLink
+                      onClick={() => {
+                        this.Carousel.goToSlide(4);
+                        document.getElementById(
+                          "kontakt"
+                        ).style.backgroundColor = "rgba(236, 91, 158, 0.6)";
+                      }}
+                    >
+                      Anja
+                    </NavLink>
+                  </AnjaWrap>
+                  <LeaWrap>
+                    <NavLink
+                      onClick={() => {
+                        this.Carousel.goToSlide(5);
+                        document.getElementById(
+                          "kontakt"
+                        ).style.backgroundColor = "rgba(0, 0, 0, 0.7)";
+                        document.getElementById("kontakt").style.color =
+                          "white";
+                      }}
+                    >
+                      Lea
+                    </NavLink>
+                  </LeaWrap>
+                  <MatijaWrap>
+                    <NavLink
+                      onClick={() => {
+                        this.Carousel.goToSlide(6);
+                        document.getElementById(
+                          "kontakt"
+                        ).style.backgroundColor = "rgba(255, 255, 0, 0.4)";
+                        document.getElementById("kontakt").style.color =
+                          "black";
+                      }}
+                    >
+                      Matija
+                    </NavLink>
+                  </MatijaWrap>
+                  <KontaktForma to="/kontakt" id="kontakt">
+                    Forma za kontakt
+                  </KontaktForma>
+                </NavMenu>
+                <Bars />
+              </Nav>
+            </Wrap>
+            <Switch>
+              <Route path="/kontakt" component={Kontakt}></Route>
+            </Switch>
+          </Router>
         </div>
+
         <div>
           <Carousel
             arrows={false}

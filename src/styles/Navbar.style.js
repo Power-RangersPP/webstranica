@@ -28,7 +28,7 @@ export const NavLink = styled.a`
   }
 `;
 
-export const KontaktForma = styled.a`
+export const KontaktForma = styled(Link)`
   background-color: #99bff9;
   width: auto;
   color: #000;
@@ -62,7 +62,7 @@ export const Bars = styled(FaBars)`
   display: none;
   color: #747474;
   @media screen and (max-width: 768px) {
-    display: block;
+    display: none;
     position: inherit;
     top: 1;
     left: 1;
