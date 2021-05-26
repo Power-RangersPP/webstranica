@@ -62,7 +62,6 @@ export const KontaktFormaPhone = styled(Link)`
   display: none;
   width: auto;
   color: #000;
-  display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0 2rem;
@@ -72,11 +71,8 @@ export const KontaktFormaPhone = styled(Link)`
   font-family: Arial, Helvetica, sans-serif;
   border: 1px solid black;
   border-radius: 10px 10px 0px 0px;
-  @media screen and (max-width: 768px) {
+  @media (max-width: 750px) {
     display: block;
-    position: inherit;
-    top: 1;
-    left: 1;
   }
 `;
 
