@@ -25,6 +25,7 @@ import {
   AnjaWrap,
   LeaWrap,
   MatijaWrap,
+  KontaktFormaPhone,
 } from "../styles/Navbar.style";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Kontakt from "./Kontakt";
@@ -128,6 +129,9 @@ class Slider extends React.Component {
                   </KontaktForma>
                 </NavMenu>
                 <Bars />
+                <KontaktFormaPhone to="/kontakt">
+                  Forma za kontakt
+                </KontaktFormaPhone>
               </Nav>
             </Wrap>
             <Switch>

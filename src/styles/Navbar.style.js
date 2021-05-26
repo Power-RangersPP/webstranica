@@ -58,6 +58,28 @@ export const KontaktForma = styled(Link)`
   }
 `;
 
+export const KontaktFormaPhone = styled(Link)`
+  display: none;
+  width: auto;
+  color: #000;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 2rem;
+  margin-left: 1em;
+  height: 95%;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+  border-radius: 10px 10px 0px 0px;
+  @media screen and (max-width: 768px) {
+    display: block;
+    position: inherit;
+    top: 1;
+    left: 1;
+  }
+`;
+
 export const Bars = styled(FaBars)`
   display: none;
   color: #747474;

@@ -40,7 +40,7 @@ export const Navbar = ({}) => {
               Lea
             </NavLink>
           </NavMenu>
-          <Bars />
+
           <KontaktForma to="/kontakt">
             <span>Forma za kontakt</span>
           </KontaktForma>
