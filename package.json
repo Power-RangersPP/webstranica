@@ -1,7 +1,7 @@
 {
   "name": "webstranica",
   "version": "1.0.0",
-  "homepage": "https://Power-RangersPP.github.io/webstranica/",
+  "homepage": "https://power-rangerspp.github.io/webstranica/",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
