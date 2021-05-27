@@ -12,6 +12,9 @@ import {
 export const Kontakt = ({}) => {
   return (
     <StyledForm>
+      <StyledLabel style={{ marginLeft: "80px" }}>
+        Odaberite člana za kontakt
+      </StyledLabel>
       <StyledCheckboxWrapper>
         <StyledLabel>Ivan</StyledLabel>
         <StyledInputCheck type="checkbox"></StyledInputCheck>
@@ -32,7 +35,7 @@ export const Kontakt = ({}) => {
 
         <StyledInput
           type="textarea"
-          style={{ height: "150px", width: "300px" }}
+          style={{ height: "100px", width: "300px" }}
         ></StyledInput>
         <StyledButton type="submit">Confirm</StyledButton>
       </StyledInputWrapper>

@@ -6,7 +6,8 @@ export const StyledForm = styled.form`
 `;
 
 export const StyledCheckboxWrapper = styled.form`
-  height: 100px;
+  height: 40px;
+  margin-left: 55px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -20,11 +21,17 @@ export const StyledLabel = styled.form`
 `;
 
 export const StyledInput = styled.input`
-  width: 200px;
+  width: 250px;
   height: 30px;
-  border-radius: 3px;
   margin-top: 10px;
   align-self: center;
+
+  :focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(81, 203, 238, 1);
+  }
 `;
 
 export const StyledInputCheck = styled.input`
@@ -42,10 +49,16 @@ export const StyledInputWrapper = styled.div`
 `;
 
 export const StyledButton = styled.button`
+  height: 40px;
   color: white;
   background-color: #99bff9;
   border: 1px solid white;
   font-weight: 600px;
   border-radius: 20px;
   margin-top: 30px;
+  :hover {
+    background-color: white;
+    border: 1px solid #99bff9;
+    color: #99bff9;
+  }
 `;

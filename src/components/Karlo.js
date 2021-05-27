@@ -1,6 +1,7 @@
 import React from "react";
 import { StyledHeader, ImageWrapper, StyledBox } from "../styles/Global.style";
 import redPowerRanger from "../images/red.jpg";
+
 import {
   KarloArticleHeader,
   KarloArticleText,
@@ -23,24 +24,27 @@ export const Karlo = ({}) => {
       <StyledBox>
         <OuterWrapper>
           <KarloArticleWrap>
-            <KarloArticleHeader>Karlo Balon</KarloArticleHeader>
-            <KarloArticleText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse at velit sit amet neque aliquam viverra. Fusce
-              condimentum nibh ac vulputate semper. Sed eget lacus ultrices,
-              mattis nulla eget, iaculis mi. Phasellus suscipit lectus ipsum,
-              sed vestibulum nisi cursus quis. Mauris finibus maximus massa nec
-              consequat. Sed nec tristique felis. Proin tincidunt turpis
-              molestie egestas ultricies. Pellentesque vel purus lacus.
-              Vestibulum placerat justo leo, vel molestie ex bibendum in.
+            <KarloArticleHeader>O meni</KarloArticleHeader>
+            <KarloArticleText style={{ fontSize: "15px" }}>
+              Zdravo, ja sam Karlo i redovni sam student TVZ-a na smjeru
+              Elektroničko Poslovanje. Prije toga sam bio učenik Prve Tehničke
+              Škole Tesle koju sam pohađao smjer Elektrotehničar i nakon srednje
+              škole mislio sam da je to idalje usmjerenje koje me zanima, no
+              nakon par tjedana odustao sam od te ideje i odlučio se prebaciti
+              na Informatiku.
             </KarloArticleText>
-            <KarloArticleText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse at velit sit amet neque aliquam viverra. Fusce
-              condimentum nibh ac vulputate semper. Sed eget lacus ultrices,
-              mattis nulla eget, iaculis mi. Phasellus suscipit lectus ipsum,
-              sed vestibulum nisi cursus quis. Mauris finibus maximus massa nec
-              consequat.
+            <KarloArticleText style={{ fontSize: "15px" }}>
+              Zbog svoje ljubavi prema knjigama radio sam par godina u knjižari
+              Znanje, nakon što je počela pandemija sam prisiljen biti doma i tu
+              priliku sam iskoristio. Pri kraju prošle godine sudjelovao sam na
+              jednom startup projektu za IT firmu i tada sam odlučio, da barem u
+              bliskoj budućnosti želim biti web developer. Od tada učim razne
+              tehnologije i radim razne stranice.
+            </KarloArticleText>
+            <KarloArticleText style={{ textAlign: "center" }}>
+              <a href="../files/KarloBalon.pdf" download>
+                CV Download
+              </a>
             </KarloArticleText>
           </KarloArticleWrap>
           <KarloImage></KarloImage>
@@ -48,17 +52,14 @@ export const Karlo = ({}) => {
         <OuterWrapper>
           <KarloImageTwo></KarloImageTwo>
           <KarloArticleWrap>
-            <KarloArticleHeader>CV</KarloArticleHeader>
-            <KarloArticleText>CV:</KarloArticleText>
-            <KarloArticleText>Portofolio:</KarloArticleText>
-            <KarloArticleHeader>Naslov:</KarloArticleHeader>
-            <KarloArticleText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse at velit sit amet neque aliquam viverra. Fusce
-              condimentum nibh ac vulputate semper. Sed eget lacus ultrices,
-              mattis nulla eget, iaculis mi. Phasellus suscipit lectus ipsum,
-              sed vestibulum nisi cursus quis. Mauris finibus maximus massa nec
-              consequat.
+            <KarloArticleHeader>Interesi</KarloArticleHeader>
+            <KarloArticleText style={{ fontSize: "20px" }}>
+              U slobodno vrijeme volim čitati, programirati te igrati video
+              igre. Najdraže igrice su mi sim-racing igrice zbog moje ljubavi
+              prema autima koji brzo voze u krug. No nažalost nisam u njima
+              dobar kolko bi htio biti. Jedan dan... Volim gledati Formulu 1 te
+              također volim nogomet, odnosno Liverpool FC kojeg pratim od malih
+              nogu iz razloga kojih se više ne sjećam.
             </KarloArticleText>
           </KarloArticleWrap>
         </OuterWrapper>
