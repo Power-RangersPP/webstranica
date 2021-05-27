@@ -48,7 +48,7 @@ export const Matija = ({}) => {
         <OuterWrapper>
           <MatijaImageTwo></MatijaImageTwo>
           <MatijaArticleWrap>
-            <MatijaArticleHeader>Naslov:</MatijaArticleHeader>
+            <MatijaArticleHeader>Interesi:</MatijaArticleHeader>
             <MatijaArticleText style={{ fontSize: "18px" }}>
               Osim informatike, izrazito volim fotografiju i sve vezano uz
               vizualne oblike umjetnosti. Fotografija je jedan od hobija koji

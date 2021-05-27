@@ -65,7 +65,6 @@ export const Karlo = ({}) => {
         </OuterWrapper>
         <KontaktWrapper>
           <h2>Kontakt</h2>
-          <p>LinkedIn: linkedin/karlo.com</p>
           <p>E-mail: kbalon@tvz.hr</p>
           <p>https://github.com/Karlo121</p>
         </KontaktWrapper>
