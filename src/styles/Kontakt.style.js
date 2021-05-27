@@ -35,7 +35,7 @@ export const StyledInput = styled.input`
 `;
 
 export const StyledInputCheck = styled.input`
-  height: 30px;
+  height: 40px;
   border-radius: 3px;
   margin-top: 10px;
   align-self: center;
