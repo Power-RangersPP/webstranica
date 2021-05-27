@@ -8,7 +8,7 @@
     "webpack": "webpack",
     "start": "webpack serve",
     "predeploy": "yarn run build",
-    "deploy": "gh pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "repository": "https://github.com/Power-RangersPP/webstranica.git",
   "author": "PowerRangers",
