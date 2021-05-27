@@ -22,7 +22,7 @@ export const StyledLabel = styled.form`
 
 export const StyledInput = styled.input`
   width: 250px;
-  height: 30px;
+  height: 20px;
   margin-top: 10px;
   align-self: center;
 
