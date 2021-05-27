@@ -39,6 +39,9 @@ export const Ivan = ({}) => {
               baru. Otkako je došao Covid i poremetio planove početkom druge
               godine sam isključivo na online predavanjima.
             </IvanArticleText>
+            <IvanArticleText style={{ textAlign: "center" }}>
+              <a href="https://europa.eu/!QR74Dw">CV</a>
+            </IvanArticleText>
           </IvanArticleWrap>
           <IvanImage></IvanImage>
         </OuterWrapper>

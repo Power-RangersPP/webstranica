@@ -4,9 +4,10 @@
   "homepage": "https://power-rangerspp.github.io/webstranica/",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "webpack": "webpack",
     "start": "webpack serve",
-    "predeploy": "yarn build",
+    "predeploy": "yarn run build",
     "deploy": "gh pages -d build"
   },
   "repository": "https://github.com/Power-RangersPP/webstranica.git",
