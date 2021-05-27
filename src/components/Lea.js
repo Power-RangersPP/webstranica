@@ -52,7 +52,7 @@ export const Lea = ({}) => {
               slobodnog vremena provodim čitajući knjige, od kojih mi je
               omiljena the Dune series, i gledajući RuPaul’s Drag Race. Također
               bi znali da volim crtati (tradicionalno i digitalno) i da je Adobe
-              Illustrator moj najbolji prijatelj. consequat.
+              Illustrator moj najbolji prijatelj.
             </LeaArticleText>
           </LeaArticleWrap>
         </OuterWrapper>
