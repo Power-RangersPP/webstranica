@@ -36,7 +36,7 @@ export const Ivan = ({}) => {
               poslovi koje sam radio ne mogu biti dalje od toga. Uz početak
               studiranja na E-poslovanju radio sam kao podrška u jednoj
               telekomunikacijskoj tvrtki, a sezonski kao ugostitelj u Beach
-              baru. Otkako je došao Covid i poremetio planove početkom druge
+              baru. Otkako je došao Covid  19 i poremetio planove početkom druge
               godine sam isključivo na online predavanjima.
             </IvanArticleText>
             <IvanArticleText style={{ textAlign: "center" }}>
