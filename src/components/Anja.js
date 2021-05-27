@@ -25,22 +25,10 @@ export const Anja = ({}) => {
           <AnjaArticleWrap>
             <AnjaArticleHeader>Anja Penić</AnjaArticleHeader>
             <AnjaArticleText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse at velit sit amet neque aliquam viverra. Fusce
-              condimentum nibh ac vulputate semper. Sed eget lacus ultrices,
-              mattis nulla eget, iaculis mi. Phasellus suscipit lectus ipsum,
-              sed vestibulum nisi cursus quis. Mauris finibus maximus massa nec
-              consequat. Sed nec tristique felis. Proin tincidunt turpis
-              molestie egestas ultricies. Pellentesque vel purus lacus.
-              Vestibulum placerat justo leo, vel molestie ex bibendumAnja
+            Pozdrav 😊 Moje ime je Anja i vanredna sam studentica druge godine Elektroničkog poslovanja. Faks sam upisala nešto kasnije od većine kolega – sa 27 godina. Nakon što sam završila gimnaziju u Čakovcu, upisala sam Engleski i Švedski jezik na FFZG ali se u tome na kraju nisam pronašla i nakon nekoliko godina sam odustala i odlučila raditi. Kako mi je velika želja bila razviti karijeru u IT sektoru, pala je odluka da upišem informatiku na TVZ-u i evo me ovdje. U početku studija sam radila ujutro u restoranu, popodne išla na predavanja a navečer učila, ali ubrzo se sve to isplatilo i već na drugoj godini sam se zaposlila u struci – u Microblinku. Sada radim kao Mobile Support Specialist, odnosno pružam podršku mobile developerima pri integraciji Microblinkovih proizvoda te surađujem sa timovima iz prodaje i marketinga u komunikaciji sa klijentima. 
             </AnjaArticleText>
             <AnjaArticleText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse at velit sit amet neque aliquam viverra. Fusce
-              condimentum nibh ac vulputate semper. Sed eget lacus ultrices,
-              mattis nulla eget, iaculis mi. Phasellus suscipit lectus ipsum,
-              sed vestibulum nisi cursus quis. Mauris finibus maximus massa nec
-              consequat.
+             .
             </AnjaArticleText>
           </AnjaArticleWrap>
           <AnjaImage></AnjaImage>
@@ -49,24 +37,19 @@ export const Anja = ({}) => {
           <AnjaImageTwo></AnjaImageTwo>
           <AnjaArticleWrap>
             <AnjaArticleHeader>CV</AnjaArticleHeader>
-            <AnjaArticleText>CV:</AnjaArticleText>
+            <AnjaArticleText>CV: https://europa.eu/!cC33Bw</AnjaArticleText>
             <AnjaArticleText>Portofolio:</AnjaArticleText>
             <AnjaArticleHeader>Naslov:</AnjaArticleHeader>
             <AnjaArticleText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse at velit sit amet neque aliquam viverra. Fusce
-              condimentum nibh ac vulputate semper. Sed eget lacus ultrices,
-              mattis nulla eget, iaculis mi. Phasellus suscipit lectus ipsum,
-              sed vestibulum nisi cursus quis. Mauris finibus maximus massa nec
-              consequat.
+            Slobodno vrijeme najviše volim provoditi u prirodi, planinarim i vozim cestovni bicikl na duge staze. Kad vremenske prilike to ne dopuštaju, doma eksperimentiram sa kuhanjem i pečenjem sourdough kruha. Također, obožavam putovati, a omiljene destinacije su mi Španjolska u kojoj sam obišla više gradova te moj omiljeni grad koji sam posjetila nekoliko puta – Berlin, zbog najboljeg noćnog života i urbane kulture. 
             </AnjaArticleText>
           </AnjaArticleWrap>
         </OuterWrapper>
         <KontaktWrapper>
           <h2>Kontakt</h2>
-          <p>LinkedIn: linkedin/ivan.com</p>
-          <p>E-mail: ivan@gmail.com</p>
-          <p>ivan.com</p>
+          
+          <p>E-mail: apenic@tvz.hr</p>
+          
         </KontaktWrapper>
       </StyledBox>
     </div>
